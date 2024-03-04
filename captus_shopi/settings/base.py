@@ -132,14 +132,15 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "http://localhost:5173"
+    "http://localhost:5173",
+    "https://new-cactus-ecommerce-8mfw.vercel.app"
 ]
 
 
 CORS_ORIGIN_WHITELIST =[
     "http://localhost:3000",
-    "http://localhost:5173"
-
+    "http://localhost:5173",
+    "https://new-cactus-ecommerce-8mfw.vercel.app"
 ]
 
 # Default primary key field type
